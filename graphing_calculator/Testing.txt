@@ -1,0 +1,141 @@
+-----------------Shunting Yard testing-----------------
+
+Input: x * 5 / (5 * x) + 10
+Output: x 5 * 5 x * / 10 +
+
+
+Input:  x + 234 / 34 * 23
+Output:  x + 234 / 34 * 23
+
+
+Input: 2 + 4
+Output: 2 4 +
+
+
+Input: # 4 + 3
+Output: -4 3 +
+
+
+Input: Sin 45
+Output: 45 Sin
+
+
+Input: sin 25 + cos ( 15 + sin 25 )+ 3
+Output: 25 15 25 sin + 3 + cos + sin
+
+
+Input: 2 + sin 30
+Output: 2 30 sin +
+
+
+Input: x * x * x * ( 1 / x - 23 ) 
+Output: x x * x * 1 x / 23 - *
+
+
+
+-----------------Evaluate Testing-----------------
+5 3 + 12 * 3 /
+5 3 + 12 * 3 / =
+| 5 || 3 || + || 12 || * || 3 || / || 5 || 3 || + || 12 || * || 3 || / |
+Pusing number into stack:| 5 |
+Pusing number into stack:| 3 || 5 |
+Printing stack after first pop:| 5 |
+Printing stack after second pop:
+Pusing number into stack:| 12 || 8 |
+Printing stack after first pop:| 8 |
+Printing stack after second pop:
+Pusing number into stack:| 3 || 96 |
+Printing stack after first pop:| 96 |
+Printing stack after second pop:
+Pusing number into stack:| 5 || 32 |
+Pusing number into stack:| 3 || 5 || 32 |
+Printing stack after first pop:| 5 || 32 |
+Printing stack after second pop:| 32 |
+Pusing number into stack:| 12 || 8 || 32 |
+Printing stack after first pop:| 8 || 32 |
+Printing stack after second pop:| 32 |
+Pusing number into stack:| 3 || 96 || 32 |
+Printing stack after first pop:| 96 || 32 |
+Printing stack after second pop:| 32 |
+
+Printing stack at the end: | 32 || 32 |
+
+
+The answer is: 32
+
+
+
+------------------------------------------------
+4 5 2 * + 34 2 / 10 * / =
+| 4 || 5 || 2 || * || + || 34 || 2 || / || 10 || * || / |
+Pusing number into stack:| 4 |
+Pusing number into stack:| 5 || 4 |
+Pusing number into stack:| 2 || 5 || 4 |
+Printing stack after first pop:| 5 || 4 |
+Printing stack after second pop:| 4 |
+Printing stack after first pop:| 4 |
+Printing stack after second pop:
+Pusing number into stack:| 34 || 14 |
+Pusing number into stack:| 2 || 34 || 14 |
+Printing stack after first pop:| 34 || 14 |
+Printing stack after second pop:| 14 |
+Pusing number into stack:| 10 || 17 || 14 |
+Printing stack after first pop:| 17 || 14 |
+Printing stack after second pop:| 14 |
+Printing stack after first pop:| 14 |
+Printing stack after second pop:
+
+Printing stack at the end: | 0.0823529 |
+
+
+The answer is: 0.0823529
+
+
+
+------------------------------------------------
+
+Press <RETURN> to close this window...
+
+-------------Lowest Level Funcs Testing---------------------
+
+Printing  the main: | 8 || 23 || 56 || 5 || 7 || 3 |
+
+Printing the clone: | 8 || 23 || 56 || 5 || 7 || 3 |
+
+Printing with Insert before(55): | 8 || 23 || 56 || 5 || 7 || 55 || 3 |
+
+Printing after Deleting node 7: | 8 || 23 || 56 || 5 || 55 || 3 |
+
+pointer starting from 3rd node : | 56 || 5 || 55 || 3 |
+
+Finding index of ITEM_TYPE 56: 3
+
+Finding index of ITEM_TYPE 8: 1
+
+Printing the main after DeleteHead: | 23 || 56 || 5 || 55 || 3 |
+
+Printing the main after DeleteAll:
+
+---------New Sorted List----------
+| 1 || 2 || 3 || 5 || 6 || 7 |
+
+Finding where 4 goes, returning pointer one before: | 3 || 5 || 6 || 7 |
+
+Inserting 4 as unique sorted: | 1 || 2 || 3 || 4 || 5 || 6 || 7 |
+
+Inserting 3 as sorted: | 1 || 2 || 3 || 3 || 4 || 5 || 6 || 7 |
+--------------------------------------------------
+
+--------------CLASSES---------------
+
+Making a new list A: Adding to the list: 5,8,7,4,3,6:
+| 6 || 3 || 4 || 7 || 8 || 5 |
+
+Making new list B with 2nd constructor:
+
+Inserting 1 after 7: | 6 || 3 || 4 || 7 || 1 || 8 || 5 |
+
+Removing the last node: | 6 || 3 || 4 || 7 || 1 || 8 |
+
+Deleteing B:
+--------------------------------------------------
