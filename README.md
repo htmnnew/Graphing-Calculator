@@ -23,6 +23,7 @@ Some interesting functions to try graphing
  * ( 1 / x ) * Sin x
 
 the Low and High ranges including the increments for the dots can be changes from Main.cpp
+
 DO NOT CHANGE THE NUMBERS IN constants.h IT WILL BREAK THE SHUNTING-YARD ALGORITHM
 
 All the lower level list functions that use pointers have been heavily tested and I didn't see and memory leaks.
