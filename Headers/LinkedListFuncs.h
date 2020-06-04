@@ -244,8 +244,8 @@ template <class ITEM_TYPE>
 node<ITEM_TYPE>* Copy(const node<ITEM_TYPE>* CopyMe){
     node<ITEM_TYPE>* Clone = new node<ITEM_TYPE>(CopyMe->item);
     node<ITEM_TYPE>* NewWalker = Clone;
-    const node<ITEM_TYPE>* Mainwalker = CopyMe;
 
+    const node<ITEM_TYPE>* Mainwalker = CopyMe;
     Mainwalker = Mainwalker->next;
 
     while(Mainwalker){
