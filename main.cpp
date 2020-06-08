@@ -263,7 +263,7 @@ void Plotting(RenderWindow& window,double x,double y){
 
 int main(){
 
-                             double Zoom = 1;//default zooming factor
+                             double Zoom = 1; //default zooming factor
 /*Set the range on left*/    double lowrange  = -500;
 /*Set the range on right*/   double highrange =  500;
 /*Number of points graphed*/ double incr      = 100000;
