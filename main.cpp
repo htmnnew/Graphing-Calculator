@@ -19,6 +19,10 @@
 #include "shunting_yard.h"
 #include "coordinates.h"
 
+// IF SFML CAUSES ISSUES WITH THE HEADERS MAKE SURE THE COMPILER AND SFML ARE CORRECT VERSION
+
+
+
 using namespace std;
 using namespace sf;
 
