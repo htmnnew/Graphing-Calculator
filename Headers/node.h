@@ -3,7 +3,8 @@
 #include <iostream>
 using namespace std;
 
-
+//implementation of a simple node
+//containing an item and a pointer to the next item
 template <class ITEM_TYPE>
 struct node{
 
