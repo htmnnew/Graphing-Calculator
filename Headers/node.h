@@ -8,6 +8,7 @@ using namespace std;
 template <class ITEM_TYPE>
 struct node{
 
+
 public:
     ITEM_TYPE item;
     node* next;
