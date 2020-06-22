@@ -1,6 +1,6 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
-
+//here is where you can change the globar constants
 const int NUMBER = 1;
 
 const int OPERATOR = 2;
